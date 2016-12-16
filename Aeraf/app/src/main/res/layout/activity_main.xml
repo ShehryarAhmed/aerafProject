@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.aeraf.MainActivity"
+    android:background="@drawable/backimage"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="60dp"
+        android:text="Select Portal"
+        android:textColor="#000000"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/mLoginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textColor="#E0E0E0"
+        android:layout_gravity="center_horizontal"
+        android:background="#000"
+        />
+
+    <Button
+        android:id="@+id/mSignupbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SignUp"
+
+        android:layout_gravity="center_horizontal"
+        android:textColor="#E0E0E0"
+        android:background="#000"
+        />
+</LinearLayout>
